@@ -1,0 +1,37 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Arial, sans-serif;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vh;
+}
+
+#itemcontainer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    width: 35vw;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.centerdiv {
+    width: calc(50% - 10px);
+    border: 3px solid lightgray;
+    padding: 10px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+
+
+.centertext {
+    text-align: center;
+}
